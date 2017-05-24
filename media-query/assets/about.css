@@ -1,0 +1,126 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFB6C1;
+}
+
+#bio {
+    content: "";
+  display: table;
+  clear: both;
+  background-color: #e6e6fa;
+    margin: 10px 20px 60px 20px;
+    border: 100px;
+    padding: 24px 26px;
+    float: left;
+}
+
+#talkaboutme {
+margin: 20px 20px 20px 20px;
+padding: 40px 40px 40px 40px;
+width: 70%;
+}
+img {
+    float: left;
+    clear: both;
+}
+
+body {
+    background-color: #E6DBFF;
+}
+article, header, nav, aside, section, footer {
+display: block;
+min-height: 100px; }
+
+header {
+    background-color: #DF3D82;
+    padding: 10px;
+    color: #E6DBFF;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    padding: 0px 80px;
+    font-size: 28px;
+}
+
+#contact me {
+    float: right;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    list-style-type: none;
+    background-color: #85C1E9;
+    padding: 10px 10px 10px 10px;
+}
+#profpic {
+    padding: 10px 10px 10px 10px;
+    
+}
+.picone {
+        padding: 10px 10px 10px 10px;
+        height: 50px;
+        width: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.pictwo {
+        padding: 10px 10px 10px 10px;
+        height: 50px;
+        width: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.picthree {
+        padding: 10px 10px 10px 10px;
+        height: 50px;
+        width: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 40px auto;
+}
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #333;
+  }
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 600px;
+  }
+  #talkaboutme {
+      width: 100%;
+  }
+  aside{
+      width: 100%;
+  }
+}
