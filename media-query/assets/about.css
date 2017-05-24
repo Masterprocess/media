@@ -117,10 +117,10 @@ aside {
   .wrapper {
     width: 600px;
   }
-  #talkaboutme {
-      width: 100%;
-  }
   aside{
       width: 100%;
+  }
+  #talkaboutme{
+      width: 90%;
   }
 }
